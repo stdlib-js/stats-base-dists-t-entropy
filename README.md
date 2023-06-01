@@ -32,10 +32,14 @@ The [differential entropy][entropy] (in [nats][nats]) for a [Student's t][t-dist
 
 <!-- <equation class="equation" label="eq:t_entropy" align="center" raw="h\left( X \right) = \frac{\nu +1}{2} \left[\psi\left({\frac{1+\nu }{2}}\right)-\psi\left({\frac{\nu }{2}}\right)\right]+\ln{\left[{\sqrt {\nu }}B\left({\frac{\nu }{2}},{\frac{1}{2}}\right)\right]}" alt="Differential entropy for a Student's t distribution."> -->
 
-<div class="equation" align="center" data-raw-text="h\left( X \right) = \frac{\nu +1}{2} \left[\psi\left({\frac{1+\nu }{2}}\right)-\psi\left({\frac{\nu }{2}}\right)\right]+\ln{\left[{\sqrt {\nu }}B\left({\frac{\nu }{2}},{\frac{1}{2}}\right)\right]}" data-equation="eq:t_entropy">
+```math
+h\left( X \right) = \frac{\nu +1}{2} \left[\psi\left({\frac{1+\nu }{2}}\right)-\psi\left({\frac{\nu }{2}}\right)\right]+\ln{\left[{\sqrt {\nu }}B\left({\frac{\nu }{2}},{\frac{1}{2}}\right)\right]}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="h\left( X \right) = \frac{\nu +1}{2} \left[\psi\left({\frac{1+\nu }{2}}\right)-\psi\left({\frac{\nu }{2}}\right)\right]+\ln{\left[{\sqrt {\nu }}B\left({\frac{\nu }{2}},{\frac{1}{2}}\right)\right]}" data-equation="eq:t_entropy">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/stats/base/dists/t/entropy/docs/img/equation_t_entropy.svg" alt="Differential entropy for a Student's t distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -47,38 +51,30 @@ where `Β` and `ψ` denote the [beta][beta-function] and [digamma][digamma] func
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-t-entropy
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-entropy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var entropy = require( 'path/to/vendor/umd/stats-base-dists-t-entropy/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.entropy;
-})();
-</script>
+var entropy = require( '@stdlib/stats-base-dists-t-entropy' );
 ```
 
 #### entropy( v )
@@ -123,15 +119,10 @@ y = entropy( 0.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var entropy = require( '@stdlib/stats-base-dists-t-entropy' );
 
 var v;
 var y;
@@ -142,11 +133,6 @@ for ( i = 0; i < 10; i++ ) {
     y = entropy( v );
     console.log( 'v: %d, h(X,v): %d', v.toFixed( 4 ), y.toFixed( 4 ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -222,7 +208,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
