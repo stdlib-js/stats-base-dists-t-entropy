@@ -69,7 +69,7 @@ where `Β` and `ψ` denote the [beta][beta-function] and [digamma][digamma] func
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@v0.2.1-deno/mod.js';
 ```
 
 #### entropy( v )
@@ -117,7 +117,7 @@ y = entropy( 0.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@deno/mod.js';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@v0.2.1-deno/mod.js';
 
 var v;
 var y;
