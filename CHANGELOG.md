@@ -2,6 +2,63 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-04-06)
+
+<section class="features">
+
+### Features
+
+-   [`6e75319`](https://github.com/stdlib-js/stdlib/commit/6e753199b156b41bd0cc33f70d535e77988d976c) - add C imlpementation for `stats/base/dists/t/entropy` [(#3928)](https://github.com/stdlib-js/stdlib/pull/3928)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3870](https://github.com/stdlib-js/stdlib/issues/3870)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`6e75319`](https://github.com/stdlib-js/stdlib/commit/6e753199b156b41bd0cc33f70d535e77988d976c) - **feat:** add C imlpementation for `stats/base/dists/t/entropy` [(#3928)](https://github.com/stdlib-js/stdlib/pull/3928) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
