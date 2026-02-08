@@ -69,7 +69,7 @@ where `Β` and `ψ` denote the [beta][beta-function] and [digamma][digamma] func
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@v0.3.1-esm/index.mjs';
 ```
 
 #### entropy( v )
@@ -122,7 +122,7 @@ y = entropy( 0.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-t-entropy@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
