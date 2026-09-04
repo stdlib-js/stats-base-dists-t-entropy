@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-09-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`08dc08f`](https://github.com/stdlib-js/stdlib/commit/08dc08f7662df2bad3b6bd12eaceb277aba0ac07) - **test:** migrate `stats/base/dists/t/entropy` to ULP-based assertions [(#14946)](https://github.com/stdlib-js/stdlib/pull/14946) _(by Aryan kumar)_
 -   [`1f05813`](https://github.com/stdlib-js/stdlib/commit/1f05813f67d394f9472e2ed7d0226f53b58d6b3f) - **docs:** fix note [(#12982)](https://github.com/stdlib-js/stdlib/pull/12982) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
@@ -28,8 +29,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Philipp Burckhardt
 -   anee3
